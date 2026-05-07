@@ -8,8 +8,6 @@ category: 说明
 draft: false
 ---
 
-# PureEnglish 使用说明
-
 欢迎使用 PureEnglish！这份文档将帮助你学习如何使用这种简单、直观的编程语言。
 
 ## 目录
