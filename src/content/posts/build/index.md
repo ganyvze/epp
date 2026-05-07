@@ -8,8 +8,6 @@ category: 指南
 draft: false
 ---
 
-# PureEnglish 构建指南
-
 本指南将帮助你从源代码构建 PureEnglish 解释器。
 
 ## 前置要求
