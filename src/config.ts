@@ -50,23 +50,20 @@ export const siteConfig: SiteConfig = {
 
 export const navBarConfig: NavBarConfig = {
 	links: [
-		LinkPreset.Home,
-		LinkPreset.Archive,
-		LinkPreset.About,
 		{
-			name: "游戏",
-			url: "https://ganyvze.github.io", // Internal links should not include the base path, as it is automatically added
+			name: "主页",
+			url: "https://epp.cc.cd", // Internal links should not include the base path, as it is automatically added
 			external: true, // Show an external link icon and will open in a new tab
 		},
 		{
-			name: "oirush",
-			url: "https://ganyvze.qzz.io",
-			external: true,
+			name: "下载",
+			url: "https://epp.cc.cd/downloads", // Internal links should not include the base path, as it is automatically added
+			external: true, // Show an external link icon and will open in a new tab
 		},
 		{
-			name: isBackup ? "前往主站" : "备用站点",
-			url: isBackup ? MAIN_SITE_URL : BACKUP_SITE_URL,
-			external: false,
+			name: "文档",
+			url: "https://docs.epp.cc.cd", // Internal links should not include the base path, as it is automatically added
+			external: false, // Show an external link icon and will open in a new tab
 		},
 	],
 };
