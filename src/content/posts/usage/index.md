@@ -31,10 +31,16 @@ draft: false
 print "Hello, World!"
 ```
 
-3. 运行程序：
+3. 编译程序：
 
 ```bash
-pe.exe hello.epp
+pe hello.epp
+```
+
+4. 运行程序：
+
+```bash
+hello.exe
 ```
 
 恭喜！你已经运行了第一个 PureEnglish 程序！
@@ -43,11 +49,11 @@ pe.exe hello.epp
 
 ### 注释
 
-使用 `note:` 开头添加注释，注释会被解释器忽略：
+使用 `//` 开头添加注释，注释会被解释器忽略：
 
 ```pureenglish
-note: 这是一个注释
-print "Hello"  note: 这也是注释
+// 这是一个注释
+print "Hello"  // 这也是注释
 ```
 
 ### 变量
@@ -455,4 +461,4 @@ print "See examples directory for more complex programs"
 2. 修改示例程序，加入你自己的想法
 3. 创建全新的程序！
 
-祝你编程愉快！
+祝您编程愉快！
